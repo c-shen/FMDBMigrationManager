@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FMDBMigrationManager'
-  s.version          = '0.1.0'
+  s.version          = '1.4.1'
   s.summary          = 'FMDBMigrationManager backup'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 FMDBMigrationManager backup FMDBMigrationManager的备份
                        DESC
 
-  s.homepage         = 'https://github.com/qq912276337/FMDBMigrationManager'
+  s.homepage         = 'https://github.com/c-shen/FMDBMigrationManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'qq912276337' => 'smlsjq@163.com' }
-  s.source           = { :git => 'https://github.com/qq912276337/FMDBMigrationManager.git', :tag => s.version.to_s }
+  s.author           = { 'Sen' => 'sencene@foxmail.com'}
+  s.source           = { :git => 'https://github.com/c-shen/FMDBMigrationManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
